@@ -1,0 +1,2197 @@
+2012-08-23 03:17:47 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-23 03:45:27 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-23 03:45:47 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-23 03:45:47 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-23 03:45:59 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-23 03:45:59 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609958, USER-ID: 1
+
+2012-08-23 03:45:59 Error: 
+DBG: .SB FILE FOUND: C:\xampp\htdocs\app\webroot/static/projects/jvvg/1609958.sb
+
+2012-08-23 03:45:59 Error: 
+DBG: Executing: C:\Program Files (x86)\Java -jar C:^\xampp^\htdocs^\app^\misc/historyextraction/ScratchAnalyzer.jar  h "C:^\xampp^\htdocs^\app^\webroot/static/projects/jvvg/1609958.sb"
+
+2012-08-23 03:45:59 Error: 
+ERR: Analyzer returns error: 'LANG' is not recognized as an internal or external command,
+operable program or batch file.
+
+2012-08-23 03:45:59 Error: 
+DBG: Running Full Analyzer 
+
+2012-08-23 03:45:59 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609958, USER-ID: 1
+
+2012-08-23 03:52:44 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-23 03:53:03 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-23 03:53:03 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609959, USER-ID: 2
+
+2012-08-23 03:53:03 Error: 
+DBG: .SB FILE FOUND: C:\xampp\htdocs\app\webroot/static/projects/auser/1609959.sb
+
+2012-08-23 03:53:03 Error: 
+DBG: Executing: C:\Program Files (x86)\Java -jar C:^\xampp^\htdocs^\app^\misc/historyextraction/ScratchAnalyzer.jar  h "C:^\xampp^\htdocs^\app^\webroot/static/projects/auser/1609959.sb"
+
+2012-08-23 03:53:04 Error: 
+ERR: Analyzer returns error: 'LANG' is not recognized as an internal or external command,
+operable program or batch file.
+
+2012-08-23 03:53:04 Error: 
+DBG: Running Full Analyzer 
+
+2012-08-23 03:53:04 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609959, USER-ID: 2
+
+2012-08-23 21:55:27 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-27 00:00:20 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-27 00:00:53 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-27 00:01:36 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-27 00:02:03 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-27 00:02:03 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609958, USER-ID: 1
+
+2012-08-27 00:02:03 Error: 
+DBG: .SB FILE FOUND: C:\xampp\htdocs\app\webroot/static/projects/jvvg/1609958.sb
+
+2012-08-27 00:02:03 Error: 
+DBG: Executing: C:\Program Files (x86)\Java -jar C:^\xampp^\htdocs^\app^\misc/historyextraction/ScratchAnalyzer.jar  h "C:^\xampp^\htdocs^\app^\webroot/static/projects/jvvg/1609958.sb"
+
+2012-08-27 00:02:03 Error: 
+ERR: Analyzer returns error: 'LANG' is not recognized as an internal or external command,
+operable program or batch file.
+
+2012-08-27 00:02:03 Error: 
+DBG: Running Full Analyzer 
+
+2012-08-27 00:02:03 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609958, USER-ID: 1
+
+2012-08-29 02:51:42 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-29 02:52:01 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-29 02:52:01 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-29 02:53:02 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-29 02:53:03 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609960, USER-ID: 1
+
+2012-08-29 02:53:03 Error: 
+DBG: .SB FILE FOUND: C:\xampp\htdocs\app\webroot/static/projects/jvvg/1609960.sb
+
+2012-08-29 02:53:03 Error: 
+DBG: Executing: C:\Program Files (x86)\Java -jar C:^\xampp^\htdocs^\app^\misc/historyextraction/ScratchAnalyzer.jar  h "C:^\xampp^\htdocs^\app^\webroot/static/projects/jvvg/1609960.sb"
+
+2012-08-29 02:53:05 Error: 
+ERR: Analyzer returns error: 'LANG' is not recognized as an internal or external command,
+operable program or batch file.
+
+2012-08-29 02:53:05 Error: 
+DBG: Running Full Analyzer 
+
+2012-08-29 02:53:05 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609960, USER-ID: 1
+
+2012-08-29 02:53:19 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-29 02:53:47 Error: 
+DBG: Inside beforeFilter()
+
+2012-08-29 02:53:48 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609961, USER-ID: 1
+
+2012-08-29 02:53:48 Error: 
+DBG: .SB FILE FOUND: C:\xampp\htdocs\app\webroot/static/projects/jvvg/1609961.sb
+
+2012-08-29 02:53:48 Error: 
+DBG: Executing: C:\Program Files (x86)\Java -jar C:^\xampp^\htdocs^\app^\misc/historyextraction/ScratchAnalyzer.jar  h "C:^\xampp^\htdocs^\app^\webroot/static/projects/jvvg/1609961.sb"
+
+2012-08-29 02:53:48 Error: 
+ERR: Analyzer returns error: 'LANG' is not recognized as an internal or external command,
+operable program or batch file.
+
+2012-08-29 02:53:48 Error: 
+DBG: Running Full Analyzer 
+
+2012-08-29 02:53:48 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609961, USER-ID: 1
+
+2012-10-06 22:54:03 Error: 
+DBG: Inside beforeFilter()
+
+2012-10-07 03:23:36 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:22:36 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:24:02 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:24:03 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:25:29 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:25:42 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:26:00 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:26:15 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:26:45 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:26:57 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:29:15 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:30:13 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:30:14 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:30:51 Error: 
+DBG: Inside beforeFilter()
+
+2012-12-01 03:30:51 Error: 
+DBG: [RN] Sending notification type #inappropriate_ptag_upload to the User #1 
+
+2012-12-01 03:30:51 Error: 
+DBG: [RN] Sending notification type #inappropriate_ptag_upload to the User #1 
+
+2012-12-01 03:30:51 Error: 
+DBG: [RN] Sending notification type #inappropriate_ptag_upload to the User #1 
+
+2012-12-01 03:30:51 Error: 
+DBG: [RN] Sending notification type #inappropriate_ptag_upload to the User #1 
+
+2012-12-01 03:30:51 Error: 
+DBG: [RN] Sending notification type #inappropriate_ptitle_upload to the User #1 
+
+2012-12-01 03:30:51 Error: 
+DBG: [RN] Sending notification type #inappropriate_pdesc_upload to the User #1 
+
+2012-12-01 03:30:51 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609962, USER-ID: 1
+
+2012-12-01 03:30:51 Error: 
+DBG: .SB FILE FOUND: C:\xampp\htdocs\app\webroot/static/projects/jvvg/1609962.sb
+
+2012-12-01 03:30:51 Error: 
+DBG: Executing: C:\Program Files (x86)\Java -jar C:^\xampp^\htdocs^\app^\misc/historyextraction/ScratchAnalyzer.jar  h "C:^\xampp^\htdocs^\app^\webroot/static/projects/jvvg/1609962.sb"
+
+2012-12-01 03:30:52 Error: 
+ERR: Analyzer returns error: 'LANG' is not recognized as an internal or external command,
+operable program or batch file.
+
+2012-12-01 03:30:52 Error: 
+DBG: Running Full Analyzer 
+
+2012-12-01 03:30:52 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609962, USER-ID: 1
+
+2021-11-29 18:06:44 Error: 
+DBG: Inside beforeFilter()
+
+2021-11-29 18:07:10 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 14:28:17 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 14:28:37 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 14:28:37 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609964, USER-ID: 14
+
+2022-01-04 14:28:37 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609964.sb
+
+2022-01-04 14:28:37 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609964.sb"
+
+2022-01-04 14:28:38 Error: 
+DBG: Analyzer returns: 2021-6-2  11:27:07	save	sus	!undefined!	!undefined!
+
+
+2022-01-04 14:28:38 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609964 has no based on 
+
+2022-01-04 14:28:38 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-04 14:28:38 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609964, USER-ID: 14
+
+2022-01-04 15:04:47 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:06:20 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:06:20 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609965, USER-ID: 14
+
+2022-01-04 15:06:20 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609965.sb
+
+2022-01-04 15:06:20 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609965.sb"
+
+2022-01-04 15:06:20 Error: 
+DBG: Analyzer returns: 2021-7-24  19:58:39	save	o que da pra fazer no pc	!undefined!	neontflame
+2021-7-24  20:49:41	save	o que da pra fazer no pc	!undefined!	neontflame
+2021-7-24  20:52:35	save	programas	!undefined!	neontflame
+2021-7-24  21:29:02	save	programas	!undefined!	!undefined!
+2021-7-24  21:32:49	save	programas	!undefined!	!undefined!
+2021-7-24  22:02:42	save	programas	!undefined!	!undefined!
+
+
+2022-01-04 15:06:20 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609965 has no based on 
+
+2022-01-04 15:06:20 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-04 15:06:20 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609965, USER-ID: 14
+
+2022-01-04 15:25:10 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:28:48 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:41:50 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:46:13 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:46:13 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:47:19 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:47:19 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:48:03 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:57:14 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:57:57 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:57:57 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 15:58:27 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:18:36 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:18:43 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:18:47 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:20:00 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:20:00 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:21:09 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:21:44 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:21:44 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:24:25 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:24:25 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:25:26 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:25:42 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:25:42 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:26:24 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:26:24 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:27:52 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:27:52 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:29:18 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:29:18 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:29:44 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:29:53 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:29:53 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:30:28 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:34:35 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:34:35 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:34:44 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:34:44 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:35:21 Error: 
+DBG: Inside beforeFilter()
+
+                                                                                                                2022-01-04 16:37:14 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:37:25 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:37:25 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:53:07 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 16:53:08 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 17:30:14 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 17:30:22 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 17:30:22 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 17:40:26 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 17:40:39 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 17:40:39 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 17:43:16 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 17:43:16 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 17:46:03 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 17:46:14 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 17:46:14 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 19:06:41 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 19:06:49 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 19:06:49 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 19:29:45 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 19:29:45 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 19:32:59 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 19:33:04 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-04 19:33:05 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:04:05 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:04:13 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:04:34 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:04:34 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:09:53 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:09:53 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:09:55 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:11:31 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:11:40 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:11:40 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:17:17 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:17:25 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:17:25 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:19:49 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:20:00 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:20:00 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:20:21 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:20:21 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609967, USER-ID: 14
+
+2022-01-05 09:20:21 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609967.sb
+
+2022-01-05 09:20:21 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609967.sb"
+
+2022-01-05 09:20:22 Error: 
+DBG: Analyzer returns: 2021-8-2  13:44:15	save	coiso	!undefined!	!undefined!
+2021-8-2  23:56:12	save	coiso	!undefined!	!undefined!
+
+
+2022-01-05 09:20:22 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609967 has no based on 
+
+2022-01-05 09:20:22 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-05 09:20:22 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609967, USER-ID: 14
+
+2022-01-05 09:21:07 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:21:21 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:21:21 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:21:49 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:21:49 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609968, USER-ID: 14
+
+2022-01-05 09:21:49 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609968.sb
+
+2022-01-05 09:21:49 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609968.sb"
+
+2022-01-05 09:21:49 Error: 
+DBG: Analyzer returns: 2021-7-24  19:58:39	save	o que da pra fazer no pc	!undefined!	neontflame
+2021-7-24  20:49:41	save	o que da pra fazer no pc	!undefined!	neontflame
+2021-7-24  20:52:35	save	programas	!undefined!	neontflame
+2021-7-24  21:29:02	save	programas	!undefined!	!undefined!
+2021-7-24  21:32:49	save	programas	!undefined!	!undefined!
+2021-7-24  22:02:42	save	programas	!undefined!	!undefined!
+
+
+2022-01-05 09:21:50 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609968 has no based on 
+
+2022-01-05 09:21:50 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-05 09:21:50 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609968, USER-ID: 14
+
+2022-01-05 09:22:16 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:22:27 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:22:27 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:22:57 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:22:57 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:23:12 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:23:12 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:24:01 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:24:01 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:24:11 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:24:30 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:24:30 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:26:09 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:26:09 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:38:42 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:38:52 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:38:52 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:39:07 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:39:07 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:40:36 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:40:43 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:40:53 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:40:53 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:41:00 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:41:00 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:41:08 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:41:08 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:52:40 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:53:07 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:54:52 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:55:00 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:55:14 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:55:23 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:55:30 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:55:44 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:55:47 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:56:07 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:56:27 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 09:56:28 Error: 
+DBG: Inside beforeFilter()
+
+                                                                                                                2022-01-05 10:18:46 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 10:19:13 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 10:19:24 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 10:19:24 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609969, USER-ID: 14
+
+2022-01-05 10:19:24 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609969.sb
+
+2022-01-05 10:19:24 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609969.sb"
+
+2022-01-05 10:19:26 Error: 
+DBG: Analyzer returns: 2021-1-4  18:18:01	save	tedio	!undefined!	neontflame
+2021-1-4  18:37:55	save	tedio	!undefined!	neontflame
+
+
+2022-01-05 10:19:26 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609969 has no based on 
+
+2022-01-05 10:19:26 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-05 10:19:26 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609969, USER-ID: 14
+
+2022-01-05 10:20:08 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 10:20:34 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 10:20:34 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609970, USER-ID: 14
+
+2022-01-05 10:20:34 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609970.sb
+
+2022-01-05 10:20:34 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609970.sb"
+
+2022-01-05 10:20:35 Error: 
+DBG: Analyzer returns: 2021-7-24  19:58:39	save	o que da pra fazer no pc	!undefined!	neontflame
+2021-7-24  20:49:41	save	o que da pra fazer no pc	!undefined!	neontflame
+
+
+2022-01-05 10:20:35 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609970 has no based on 
+
+2022-01-05 10:20:35 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-05 10:20:35 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609970, USER-ID: 14
+
+2022-01-05 11:04:49 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 11:05:14 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 11:05:14 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609971, USER-ID: 14
+
+2022-01-05 11:05:14 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609971.sb
+
+2022-01-05 11:05:14 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609971.sb"
+
+2022-01-05 11:05:15 Error: 
+DBG: Analyzer returns: 2021-8-2  13:44:15	save	coiso	!undefined!	!undefined!
+2021-8-2  23:56:12	save	coiso	!undefined!	!undefined!
+
+
+2022-01-05 11:05:15 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609971 has no based on 
+
+2022-01-05 11:05:15 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-05 11:05:15 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609971, USER-ID: 14
+
+2022-01-05 11:08:16 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 11:09:24 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 11:12:54 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 11:21:27 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 11:21:27 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609972, USER-ID: 17
+
+2022-01-05 11:21:27 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/brazil420/1609972.sb
+
+2022-01-05 11:21:27 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/brazil420/1609972.sb"
+
+2022-01-05 11:21:27 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 11:21:27 Error: 
+DBG: Analyzer returns: 2007-3-27 16:55:51	old	Pacman Starter Kit.sb	!undefined!	jay
+2007-4-24  17:23:10	save	pacman starter	jay	jay
+2007-5-1  21:33:43	save	pacman starter new	jay	jay
+2007-5-1  21:40:55	save	pacman	jay	jay
+2007-5-1  21:41:03	save	pacman	jay	jay
+2007-5-1  21:51:24	save	pacman	jay	jay
+2007-5-2  19:16:49	save	Pacman	jay	jay
+2007-5-2  19:28:16	save	Pacman	jay	jAy sIlvEr
+2007-5-2  19:28:40	save	Pacman	jay	jAy sIlvEr
+2007-5-2  19:50:46	save	Pacman	jay	jay
+2007-5-3  13:30:33	save	1 Pacman	jay	jay
+2007-5-3  13:52:38	save	1 Pacman	jay	jay
+2007-5-3  13:53:11	save	pacman	jay	jay
+2007-5-6  15:52:13	save	1 PacMan	!undefined!	!undefined!
+2007-5-6  15:53:04	save	1 PacMan	!undefined!	jay
+2007-5-7  02:11:10	save	1 PacMan	!undefined!	jay
+2007-10-24  11:12:59	save	1 PacMan	!undefined!	Eric
+2007-10-24  11:16:15	save	1 PacManER	!undefined!	Eric
+2007-10-24  11:16:21	save	1 PacManER	!undefined!	Eric
+2007-10-24  11:19:17	save	1 PacManER	!undefined!	Eric
+2007-12-5  14:50:31	save	1 PacMan	SampleProjectsTeam	Ximena
+2007-12-5  14:50:40	share	1 PacMan	SampleProjectsTeam	Ximena
+2007-12-5  15:00:23	save	1 PacMan	SampleProjectsTeam	jay
+2022-1-5  13:20:22	save	PacMan	!undefined!	brazil420
+
+
+2022-01-05 11:21:27 Error: 
+DBG: Parent user not found
+
+2022-01-05 11:21:27 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609972 has no based on 
+
+2022-01-05 11:21:27 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-05 11:21:27 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609972, USER-ID: 17
+
+2022-01-05 11:21:27 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609972, USER-ID: 17
+
+2022-01-05 11:21:27 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/brazil420/1609972.sb
+
+2022-01-05 11:21:27 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/brazil420/1609972.sb"
+
+2022-01-05 11:21:27 Error: 
+DBG: Analyzer returns: 2007-3-27 16:55:51	old	Pacman Starter Kit.sb	!undefined!	jay
+2007-4-24  17:23:10	save	pacman starter	jay	jay
+2007-5-1  21:33:43	save	pacman starter new	jay	jay
+2007-5-1  21:40:55	save	pacman	jay	jay
+2007-5-1  21:41:03	save	pacman	jay	jay
+2007-5-1  21:51:24	save	pacman	jay	jay
+2007-5-2  19:16:49	save	Pacman	jay	jay
+2007-5-2  19:28:16	save	Pacman	jay	jAy sIlvEr
+2007-5-2  19:28:40	save	Pacman	jay	jAy sIlvEr
+2007-5-2  19:50:46	save	Pacman	jay	jay
+2007-5-3  13:30:33	save	1 Pacman	jay	jay
+2007-5-3  13:52:38	save	1 Pacman	jay	jay
+2007-5-3  13:53:11	save	pacman	jay	jay
+2007-5-6  15:52:13	save	1 PacMan	!undefined!	!undefined!
+2007-5-6  15:53:04	save	1 PacMan	!undefined!	jay
+2007-5-7  02:11:10	save	1 PacMan	!undefined!	jay
+2007-10-24  11:12:59	save	1 PacMan	!undefined!	Eric
+2007-10-24  11:16:15	save	1 PacManER	!undefined!	Eric
+2007-10-24  11:16:21	save	1 PacManER	!undefined!	Eric
+2007-10-24  11:19:17	save	1 PacManER	!undefined!	Eric
+2007-12-5  14:50:31	save	1 PacMan	SampleProjectsTeam	Ximena
+2007-12-5  14:50:40	share	1 PacMan	SampleProjectsTeam	Ximena
+2007-12-5  15:00:23	save	1 PacMan	SampleProjectsTeam	jay
+2022-1-5  13:20:22	save	PacMan	!undefined!	brazil420
+
+
+2022-01-05 11:21:27 Error: 
+DBG: Parent user not found
+
+2022-01-05 11:21:27 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609972 has no based on 
+
+2022-01-05 11:21:27 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-05 11:21:27 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609972, USER-ID: 17
+
+2022-01-05 15:53:24 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 15:54:04 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-05 15:54:05 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609973, USER-ID: 15
+
+2022-01-05 15:54:05 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/fupi/1609973.sb
+
+2022-01-05 15:54:05 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/fupi/1609973.sb"
+
+2022-01-05 15:54:05 Error: 
+DBG: Analyzer returns: 2022-1-4  17:41:19	save	OMDL-Scratch1.4ventura	!undefined!	Fupi
+
+
+2022-01-05 15:54:05 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609973 has no based on 
+
+2022-01-05 15:54:05 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-05 15:54:05 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609973, USER-ID: 15
+
+2022-01-05 17:31:54 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 02:54:00 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 02:56:22 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 02:56:22 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609974, USER-ID: 14
+
+2022-01-06 02:56:22 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609974.sb
+
+2022-01-06 02:56:22 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609974.sb"
+
+2022-01-06 02:56:22 Error: 
+DBG: Analyzer returns: 2022-1-6  01:24:44	save	rinha	!undefined!	!undefined!
+2022-1-6  01:25:58	save	rinha	!undefined!	!undefined!
+2022-1-6  11:22:27	save	rinha	!undefined!	!undefined!
+2022-1-6  14:14:03	save	rinha	!undefined!	!undefined!
+
+
+2022-01-06 02:56:22 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609974 has no based on 
+
+2022-01-06 02:56:22 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-06 02:56:22 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609974, USER-ID: 14
+
+2022-01-06 04:24:57 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 04:25:04 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 04:25:20 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 04:25:20 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 04:25:37 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 04:25:37 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609975, USER-ID: 14
+
+2022-01-06 04:25:37 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609975.sb
+
+2022-01-06 04:25:37 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609975.sb"
+
+2022-01-06 04:25:37 Error: 
+DBG: Analyzer returns: 2021-7-24  19:58:39	save	o que da pra fazer no pc	!undefined!	neontflame
+2021-7-24  20:49:41	save	o que da pra fazer no pc	!undefined!	neontflame
+2022-1-6  15:44:45	save	Vários Programas 2	!undefined!	!undefined!
+
+
+2022-01-06 04:25:37 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609975 has no based on 
+
+2022-01-06 04:25:37 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-06 04:25:37 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609975, USER-ID: 14
+
+2022-01-06 08:45:24 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 08:45:51 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 08:45:51 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609976, USER-ID: 14
+
+2022-01-06 08:45:51 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609976.sb
+
+2022-01-06 08:45:51 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609976.sb"
+
+2022-01-06 08:45:52 Error: 
+DBG: Analyzer returns: 2022-1-5  11:23:47	save	test	!undefined!	!undefined!
+2022-1-5  13:04:57	save	test	!undefined!	!undefined!
+
+
+2022-01-06 08:45:52 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609976 has no based on 
+
+2022-01-06 08:45:52 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-06 08:45:52 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609976, USER-ID: 14
+
+2022-01-06 15:05:38 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 15:08:04 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 15:08:44 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 15:08:44 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 15:09:13 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 15:09:13 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609977, USER-ID: 19
+
+2022-01-06 15:09:13 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/LeoLegal/1609977.sb
+
+2022-01-06 15:09:13 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/LeoLegal/1609977.sb"
+
+2022-01-06 15:09:13 Error: 
+DBG: Analyzer returns: 2007-3-27 18:28:49	old	Thanks_LLK[1].sb	!undefined!	andresmh
+2007-5-1  23:00:08	save	Thanks_LLK	!undefined!	!undefined!
+2007-5-1  23:02:02	save	Thanks_LLK	!undefined!	!undefined!
+2007-5-2  22:30:03	save	Celebration	!undefined!	andres
+2007-11-29  10:44:02	save	3 Celebration	!undefined!	!undefined!
+2007-12-5  15:33:03	share	3 Celebration	SampleProjectsTeam	Rahim
+2007-12-5  15:35:39	save	3 Celebration	SampleProjectsTeam	andresmh
+2022-1-7  12:20:37	save	yakuza 8	!undefined!	!undefined!
+
+
+2022-01-06 15:09:13 Error: 
+DBG: Parent user not found
+
+2022-01-06 15:09:13 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609977 has no based on 
+
+2022-01-06 15:09:13 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-06 15:09:13 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609977, USER-ID: 19
+
+2022-01-06 15:57:11 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 15:58:09 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 15:59:09 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 15:59:09 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 16:34:43 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 16:35:31 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 16:35:31 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609978, USER-ID: 19
+
+2022-01-06 16:35:31 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/LeoLegal/1609978.sb
+
+2022-01-06 16:35:31 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/LeoLegal/1609978.sb"
+
+2022-01-06 16:35:31 Error: 
+DBG: Analyzer returns: 2022-1-7  13:47:07	save	omdl	!undefined!	!undefined!
+
+
+2022-01-06 16:35:31 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609978 has no based on 
+
+2022-01-06 16:35:31 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-06 16:35:31 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609978, USER-ID: 19
+
+2022-01-06 16:48:17 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 18:17:23 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 18:17:30 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 18:18:45 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 18:18:45 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 18:21:56 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 18:21:57 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609979, USER-ID: 19
+
+2022-01-06 18:21:57 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/LeoLegal/1609979.sb
+
+2022-01-06 18:21:57 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/LeoLegal/1609979.sb"
+
+2022-01-06 18:21:57 Error: 
+DBG: Analyzer returns: 2007-9-10  16:23:43	save	Virtual Dog	!undefined!	!undefined!
+2007-9-10  16:34:23	save	Virtual Dog	!undefined!	!undefined!
+2007-9-11  18:04:42	save	Virtual Dog	!undefined!	!undefined!
+2007-9-11  18:10:58	save	Virtual Dog	!undefined!	!undefined!
+2007-9-11  18:31:52	save	Virtual Dog	!undefined!	!undefined!
+2007-9-12  13:54:42	save	Virtual Dog	!undefined!	!undefined!
+2007-9-12  14:41:33	save	Virtual Dog	!undefined!	!undefined!
+2007-9-12  19:53:57	save	Virtual Dog	!undefined!	!undefined!
+2007-9-12  19:55:42	save	Virtual Dog	!undefined!	!undefined!
+2007-9-12  19:56:35	save	Virtual Dog	!undefined!	!undefined!
+2007-9-12  20:11:53	save	Virtual Dog	!undefined!	!undefined!
+2007-9-13  17:22:02	save	Virtual Dog	!undefined!	!undefined!
+2007-9-13  17:59:11	save	Virtual Dog	!undefined!	angelical
+2007-9-13  18:01:40	save	Virtual Dog	!undefined!	angelical
+2007-9-13  18:15:37	save	Virtual Dog	!undefined!	angelical
+2007-9-13  18:15:45	save	Virtual Dog	!undefined!	angelical
+2007-9-13  18:16:18	save	Virtual Dog	!undefined!	angelical
+2007-9-13  18:34:35	save	Virtual Dog	!undefined!	angelical
+2007-9-14  10:48:43	save	Virtual Dog	!undefined!	angelical
+2007-9-14  21:50:23	save	Virtual Dog	!undefined!	angelical
+2007-9-14  22:28:29	save	Virtual Dog	angelical	angelical
+2007-9-15  09:11:05	save	Virtual Dog	!undefined!	!undefined!
+2007-9-15  09:11:37	save	Virtual Dog	!undefined!	!undefined!
+2007-9-15  10:48:40	save	Virtual Dog	!undefined!	!undefined!
+2007-9-15  11:35:39	save	Virtual Dog	!undefined!	!undefined!
+2007-9-20  17:05:40	save	Virtual Dog	!undefined!	!undefined!
+2007-9-20  17:21:25	save	Virtual Dog	!undefined!	!undefined!
+2007-9-21  16:06:51	save	Virtual Dog	!undefined!	!undefined!
+2007-9-22  14:09:30	save	Virtual Dog	!undefined!	!undefined!
+2007-9-22  18:19:53	save	Virtual Dog	!undefined!	!undefined!
+2007-9-22  18:20:06	save	Virtual Dog	!undefined!	!undefined!
+2007-9-23  20:52:01	save	Virtual Dog	!undefined!	!undefined!
+2007-9-23  20:55:50	save	Virtual Dog	!undefined!	!undefined!
+2007-9-23  21:08:50	save	Virtual Dog	!undefined!	!undefined!
+2007-9-24  14:19:04	save	Virtual Dog	!undefined!	!undefined!
+2007-9-24  14:21:44	save	Virtual Dog	!undefined!	!undefined!
+2007-9-24  20:20:01	save	Virtual Dog	!undefined!	!undefined!
+2007-9-28  15:20:57	save	Virtual Dog	!undefined!	!undefined!
+2007-9-28  15:37:24	save	Virtual Dog	!undefined!	!undefined!
+2007-9-28  15:58:11	save	Virtual Dog	!undefined!	!undefined!
+2007-9-28  16:00:31	save	Virtual Dog	!undefined!	!undefined!
+2007-9-28  16:01:06	save	Virtual Dog	!undefined!	!undefined!
+2007-9-28  16:06:32	save	Virtual Dog	!undefined!	!undefined!
+2007-9-28  19:08:17	save	Virtual Dog	!undefined!	!undefined!
+2007-9-28  19:12:41	save	Virtual Dog	!undefined!	!undefined!
+2007-9-28  19:22:07	save	Virtual Dog	!undefined!	!undefined!
+2007-9-29  16:17:43	save	Virtual Dog	!undefined!	!undefined!
+2007-9-29  16:17:45	save	Virtual Dog	!undefined!	!undefined!
+2007-9-29  16:19:34	save	Virtual Dog	!undefined!	!undefined!
+2007-9-29  16:22:52	save	Virtual Dog	!undefined!	!undefined!
+2007-9-29  16:25:20	save	Virtual Dog	!undefined!	!undefined!
+2007-11-20  11:21:29	share	Virtual Dog	angelical	angelical
+2007-11-20  11:24:56	save	Virtual Dog	angelical	angelical
+2007-11-23  10:01:36	save	Virtual Dog	angelical	angelical
+2007-11-23  10:01:43	save	Virtual Dog	angelical	angelical
+2007-11-23  10:01:54	share	Virtual Dog	angelical	angelical
+2007-11-29  16:06:51	save	8 Virtual Dog	!undefined!	!undefined!
+2022-1-7  15:30:18	save	DogVirtual	!undefined!	!undefined!
+
+
+2022-01-06 18:21:57 Error: 
+DBG: Parent user not found
+
+2022-01-06 18:21:57 Error: 
+DBG: Parent user not found
+
+2022-01-06 18:21:57 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609979 has no based on 
+
+2022-01-06 18:21:57 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-06 18:21:57 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609979, USER-ID: 19
+
+2022-01-06 20:31:41 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 20:33:57 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-06 20:33:57 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609980, USER-ID: 14
+
+2022-01-06 20:33:57 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609980.sb
+
+2022-01-06 20:33:57 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609980.sb"
+
+2022-01-06 20:33:57 Error: 
+DBG: Analyzer returns: 2022-1-7  17:44:36	save	plataforma engine	!undefined!	!undefined!
+
+
+2022-01-06 20:33:57 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609980 has no based on 
+
+2022-01-06 20:33:57 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-06 20:33:57 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609980, USER-ID: 14
+
+2022-01-07 01:05:10 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 04:52:30 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 04:52:39 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 09:41:09 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 10:02:27 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:03:52 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:04:24 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:04:31 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:12:26 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:49:54 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:52:43 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:52:43 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609981, USER-ID: 19
+
+2022-01-07 12:52:43 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/LeoLegal/1609981.sb
+
+2022-01-07 12:52:43 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/LeoLegal/1609981.sb"
+
+2022-01-07 12:52:44 Error: 
+DBG: Analyzer returns: 2022-1-8  21:48:21	save	furry	!undefined!	!undefined!
+2022-1-8  21:51:34	save	furry	!undefined!	!undefined!
+
+
+2022-01-07 12:52:44 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609981 has no based on 
+
+2022-01-07 12:52:44 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-07 12:52:44 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609981, USER-ID: 19
+
+2022-01-07 12:53:24 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:54:15 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:54:16 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:54:54 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:54:54 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:56:45 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 12:56:45 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609982, USER-ID: 21
+
+2022-01-07 12:56:45 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/Maujoaaa/1609982.sb
+
+2022-01-07 12:56:45 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/Maujoaaa/1609982.sb"
+
+2022-01-07 12:56:45 Error: 
+DBG: Analyzer returns: 2022-1-8  19:29:35	save	Batalha épica entre o maujoa e um búfalo	!undefined!	!undefined!
+
+
+2022-01-07 12:56:45 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609982 has no based on 
+
+2022-01-07 12:56:45 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-07 12:56:45 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609982, USER-ID: 21
+
+2022-01-07 18:32:33 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 18:35:38 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 18:35:38 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 18:37:48 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 18:38:02 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 18:38:02 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 20:19:37 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 20:22:11 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 20:22:46 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 20:23:12 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 20:23:18 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 20:23:29 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-07 20:23:29 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609983, USER-ID: 14
+
+2022-01-07 20:23:29 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609983.sb
+
+2022-01-07 20:23:29 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609983.sb"
+
+2022-01-07 20:23:29 Error: 
+DBG: Analyzer returns: 2022-1-9  15:05:46	save	arranha ceu infinito	!undefined!	!undefined!
+2022-1-9  15:08:03	save	arranha ceu infinito	!undefined!	!undefined!
+2022-1-9  15:08:17	save	arranha ceus infinito	!undefined!	!undefined!
+
+
+2022-01-07 20:23:29 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609983 has no based on 
+
+2022-01-07 20:23:29 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-07 20:23:29 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609983, USER-ID: 14
+
+2022-01-09 17:56:47 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 18:02:53 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 18:03:33 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 18:03:33 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609984, USER-ID: 15
+
+2022-01-09 18:03:33 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/fupi/1609984.sb
+
+2022-01-09 18:03:33 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/fupi/1609984.sb"
+
+2022-01-09 18:03:34 Error: 
+DBG: Analyzer returns: 2022-1-9  15:05:46	save	arranha ceu infinito	!undefined!	!undefined!
+2022-1-9  15:08:03	save	arranha ceu infinito	!undefined!	!undefined!
+2022-1-9  15:08:17	save	arranha ceus infinito	!undefined!	!undefined!
+2022-1-9  17:34:01	save	iei	!undefined!	!undefined!
+2022-1-9  18:11:22	save	iei	!undefined!	!undefined!
+
+
+2022-01-09 18:03:34 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609984 has no based on 
+
+2022-01-09 18:03:34 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-09 18:03:34 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609984, USER-ID: 15
+
+2022-01-09 19:14:08 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 19:14:31 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 19:46:03 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 19:46:48 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 19:46:48 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609985, USER-ID: 19
+
+2022-01-09 19:46:48 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/LeoLegal/1609985.sb
+
+2022-01-09 19:46:48 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/LeoLegal/1609985.sb"
+
+2022-01-09 19:46:48 Error: 
+DBG: Analyzer returns: 2022-1-9  15:05:46	save	arranha ceu infinito	!undefined!	!undefined!
+2022-1-9  15:08:03	save	arranha ceu infinito	!undefined!	!undefined!
+2022-1-9  15:08:17	save	arranha ceus infinito	!undefined!	!undefined!
+2022-1-9  17:34:01	save	iei	!undefined!	!undefined!
+2022-1-9  18:11:22	save	iei	!undefined!	!undefined!
+2022-1-9  20:54:56	save	Leo no Arranha-Céus Infinito	!undefined!	!undefined!
+
+
+2022-01-09 19:46:48 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609985 has no based on 
+
+2022-01-09 19:46:48 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-09 19:46:48 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609985, USER-ID: 19
+
+2022-01-09 19:47:10 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 19:47:10 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 20:06:02 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 20:06:53 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 20:08:35 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 20:09:17 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 20:09:18 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 20:09:18 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-09 20:09:21 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 00:24:54 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 00:25:01 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 00:25:15 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 00:27:58 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 00:28:21 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 00:45:22 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 02:14:48 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 02:14:56 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 02:15:49 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 02:15:49 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609986, USER-ID: 14
+
+2022-01-10 02:15:49 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609986.sb
+
+2022-01-10 02:15:49 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609986.sb"
+
+2022-01-10 02:15:49 Error: 
+DBG: Analyzer returns: 2022-1-10  02:16:49	save	boss	!undefined!	!undefined!
+2022-1-10  02:19:57	save	boss	!undefined!	!undefined!
+2022-1-10  02:20:04	save	boss	!undefined!	!undefined!
+2022-1-10  13:23:25	save	boss	!undefined!	!undefined!
+
+
+2022-01-10 02:15:49 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609986 has no based on 
+
+2022-01-10 02:15:49 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-10 02:15:49 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609986, USER-ID: 14
+
+2022-01-10 05:57:33 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 11:12:20 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 11:14:01 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 15:00:43 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 15:01:20 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-10 15:01:20 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609987, USER-ID: 14
+
+2022-01-10 15:01:20 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609987.sb
+
+2022-01-10 15:01:20 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609987.sb"
+
+2022-01-10 15:01:20 Error: 
+DBG: Analyzer returns: 2022-1-11  15:58:13	save	windou xp	!undefined!	!undefined!
+
+
+2022-01-10 15:01:21 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609987 has no based on 
+
+2022-01-10 15:01:21 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-10 15:01:21 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609987, USER-ID: 14
+
+2022-01-10 21:51:44 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-12 05:52:09 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-12 08:48:03 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-12 20:18:01 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-12 23:47:04 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-13 11:09:20 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-14 18:16:46 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-15 09:25:58 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-15 16:01:03 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-15 16:41:58 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-16 00:04:41 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-16 00:04:53 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-16 00:09:28 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-16 00:09:29 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609988, USER-ID: 14
+
+2022-01-16 00:09:29 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609988.sb
+
+2022-01-16 00:09:29 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609988.sb"
+
+2022-01-16 00:09:29 Error: 
+DBG: Analyzer returns: 2022-1-16  02:04:09	save	O Rei do Riso	!undefined!	!undefined!
+
+
+2022-01-16 00:09:29 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609988 has no based on 
+
+2022-01-16 00:09:29 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-16 00:09:29 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609988, USER-ID: 14
+
+2022-01-16 00:58:21 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-16 14:43:31 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-17 01:39:46 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-17 01:45:19 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-17 01:45:59 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-17 01:45:59 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609989, USER-ID: 21
+
+2022-01-17 01:45:59 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/Maujoaaa/1609989.sb
+
+2022-01-17 01:45:59 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/Maujoaaa/1609989.sb"
+
+2022-01-17 01:45:59 Error: 
+DBG: Analyzer returns: 2022-1-17  23:07:21	save	joguin	!undefined!	joguinho bem legal
+
+
+2022-01-17 01:45:59 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609989 has no based on 
+
+2022-01-17 01:45:59 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-17 01:45:59 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609989, USER-ID: 21
+
+2022-01-17 05:23:07 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-17 08:55:26 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-17 09:25:42 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-19 11:33:57 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-19 11:53:09 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-20 09:32:27 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-20 11:22:16 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-20 12:13:44 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-20 13:04:45 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-24 08:22:00 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-25 13:45:07 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 08:57:19 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 11:02:34 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 11:05:27 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 11:05:34 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 11:06:00 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 11:06:11 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 11:06:34 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 11:07:12 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 11:09:12 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 11:09:12 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609990, USER-ID: 14
+
+2022-01-28 11:09:12 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609990.sb
+
+2022-01-28 11:09:12 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609990.sb"
+
+2022-01-28 11:09:12 Error: 
+DBG: Analyzer returns: 2022-1-28  13:01:09	save	como desbloquear	!undefined!	!undefined!
+2022-1-28  13:08:01	save	como desbloquear	!undefined!	!undefined!
+2022-1-28  13:08:38	save	como desbloquear	!undefined!	!undefined!
+2022-1-28  13:08:47	save	como desbloq	!undefined!	!undefined!
+
+
+2022-01-28 11:09:13 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609990 has no based on 
+
+2022-01-28 11:09:13 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-28 11:09:13 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609990, USER-ID: 14
+
+2022-01-28 16:36:19 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 16:37:03 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 16:37:03 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 16:38:35 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 16:38:35 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609991, USER-ID: 27
+
+2022-01-28 16:38:35 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/mariocrafter/1609991.sb
+
+2022-01-28 16:38:35 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/mariocrafter/1609991.sb"
+
+2022-01-28 16:38:35 Error: 
+DBG: Analyzer returns: 2010-4-1  12:25:22	share	Super Scratch Bros	lu9	!undefined!
+2012-1-31  14:05:49	share	Super Marscratch Bros	mariocrafter	!undefined!
+2022-1-28  16:15:38	save	Super Marscratch Bros	!undefined!	!undefined!
+2022-1-28  16:17:18	save	Super Marscratch Bros	!undefined!	!undefined!
+2022-1-28  16:21:03	save	Super Marscratch Bros	!undefined!	mariocrafter
+2022-1-28  16:22:06	save	Super Marscratch Bros	!undefined!	mariocrafter
+2022-1-28  16:22:55	save	Super Marscratch Bros	!undefined!	mariocrafter
+2022-1-28  16:23:17	save	Super Marscratch Bros	!undefined!	mariocrafter
+
+
+2022-01-28 16:38:36 Error: 
+DBG: Parent uid: 27
+
+2022-01-28 16:38:36 Error: 
+DBG: Parent pid: 1609991
+
+2022-01-28 16:38:36 Error: 
+DBG: Uploaded pid: 1609991
+
+2022-01-28 16:38:36 Error: 
+DBG: Parent user not found
+
+2022-01-28 16:38:36 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609991 has no based on 
+
+2022-01-28 16:38:36 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-28 16:38:36 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609991, USER-ID: 27
+
+2022-01-28 16:53:52 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 19:55:50 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-28 20:26:43 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-29 09:37:20 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-29 10:24:41 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-29 11:31:39 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-29 18:01:27 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-29 18:03:07 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-29 18:03:15 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-29 18:03:15 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609992, USER-ID: 19
+
+2022-01-29 18:03:15 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/LeoLegal/1609992.sb
+
+2022-01-29 18:03:15 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/LeoLegal/1609992.sb"
+
+2022-01-29 18:03:16 Error: 
+DBG: Analyzer returns: 2022-1-29  12:24:28	save	The Simulation	!undefined!	LeoLegal
+
+
+2022-01-29 18:03:16 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609992 has no based on 
+
+2022-01-29 18:03:16 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-29 18:03:16 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609992, USER-ID: 19
+
+2022-01-29 18:07:12 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 12:49:50 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 12:55:22 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 12:56:01 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 12:56:02 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 12:57:08 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 12:57:08 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609993, USER-ID: 27
+
+2022-01-30 12:57:08 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/mariocrafter/1609993.sb
+
+2022-01-30 12:57:08 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/mariocrafter/1609993.sb"
+
+2022-01-30 12:57:09 Error: 
+DBG: Analyzer returns: 2022-1-28  13:01:09	save	como desbloquear	!undefined!	!undefined!
+2022-1-28  13:08:01	save	como desbloquear	!undefined!	!undefined!
+2022-1-28  13:08:38	save	como desbloquear	!undefined!	!undefined!
+2022-1-28  13:08:47	save	como desbloq	!undefined!	!undefined!
+2022-1-30  13:21:39	save	Guide On How To Unlock Your Wii	!undefined!	mariocrafter
+
+
+2022-01-30 12:57:09 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609993 has no based on 
+
+2022-01-30 12:57:09 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-30 12:57:09 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609993, USER-ID: 27
+
+2022-01-30 14:14:38 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 14:18:12 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 14:20:08 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 14:20:40 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 14:20:40 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 14:20:53 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 14:21:35 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 14:21:35 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609994, USER-ID: 14
+
+2022-01-30 14:21:35 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609994.sb
+
+2022-01-30 14:21:35 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609994.sb"
+
+2022-01-30 14:21:35 Error: 
+DBG: Analyzer returns: 2022-1-29  12:24:28	save	The Simulation	!undefined!	LeoLegal
+2022-1-30  16:51:43	save	remix test	!undefined!	!undefined!
+
+
+2022-01-30 14:21:35 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609994 has no based on 
+
+2022-01-30 14:21:35 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-30 14:21:35 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609994, USER-ID: 14
+
+2022-01-30 16:25:40 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 16:25:43 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 16:27:40 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 16:28:50 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 16:29:25 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 16:31:12 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 16:31:28 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 16:31:34 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 16:32:16 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 16:32:18 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 16:32:29 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 16:39:06 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 16:39:45 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-30 20:41:20 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-31 10:12:35 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-31 10:13:20 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-31 10:13:28 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-31 10:13:47 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-31 10:13:48 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-31 10:14:04 Error: 
+DBG: Inside beforeFilter()
+
+2022-01-31 10:14:04 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609995, USER-ID: 14
+
+2022-01-31 10:14:04 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609995.sb
+
+2022-01-31 10:14:04 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609995.sb"
+
+2022-01-31 10:14:05 Error: 
+DBG: Analyzer returns: 2022-1-29  12:24:28	save	The Simulation	!undefined!	LeoLegal
+2022-1-30  16:51:43	save	remix test	!undefined!	!undefined!
+
+
+2022-01-31 10:14:05 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609995 has no based on 
+
+2022-01-31 10:14:05 Error: 
+DBG: Running Full Analyzer 
+
+2022-01-31 10:14:05 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609995, USER-ID: 14
+
+2022-02-01 13:47:35 Error: 
+DBG: Inside beforeFilter()
+
+2022-02-01 13:48:20 Error: 
+DBG: Inside beforeFilter()
+
+2022-02-01 13:48:35 Error: 
+DBG: Inside beforeFilter()
+
+2022-02-01 13:48:35 Error: 
+DBG: Inside beforeFilter()
+
+2022-02-01 13:48:44 Error: 
+DBG: Inside beforeFilter()
+
+2022-02-01 13:49:08 Error: 
+DBG: Inside beforeFilter()
+
+2022-02-01 13:49:08 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609996, USER-ID: 14
+
+2022-02-01 13:49:08 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/neontflame/1609996.sb
+
+2022-02-01 13:49:08 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/neontflame/1609996.sb"
+
+2022-02-01 13:49:09 Error: 
+DBG: Analyzer returns: 2022-1-29  12:24:28	save	The Simulation	!undefined!	LeoLegal
+2022-1-30  16:51:43	save	remix test	!undefined!	!undefined!
+
+
+2022-02-01 13:49:09 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609996 has no based on 
+
+2022-02-01 13:49:09 Error: 
+DBG: Running Full Analyzer 
+
+2022-02-01 13:49:09 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609996, USER-ID: 14
+
+2022-02-05 23:15:04 Error: 
+DBG: Inside beforeFilter()
+
+2022-02-05 23:17:01 Error: 
+DBG: Inside beforeFilter()
+
+2022-02-05 23:17:02 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609997, USER-ID: 27
+
+2022-02-05 23:17:02 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/mariocrafter/1609997.sb
+
+2022-02-05 23:17:02 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/mariocrafter/1609997.sb"
+
+2022-02-05 23:17:03 Error: 
+DBG: Analyzer returns: 2012-2-25  12:29:55	share	tell sega to invent this	mariocrafter	!undefined!
+2022-2-5  23:14:10	save	2355952	!undefined!	!undefined!
+2022-2-5  23:17:04	save	tell sega to invent this	!undefined!	!undefined!
+
+
+2022-02-05 23:17:03 Error: 
+DBG: Parent uid: 27
+
+2022-02-05 23:17:03 Error: 
+DBG: Parent pid: 1609997
+
+2022-02-05 23:17:03 Error: 
+DBG: Uploaded pid: 1609997
+
+2022-02-05 23:17:03 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609997 has no based on 
+
+2022-02-05 23:17:03 Error: 
+DBG: Running Full Analyzer 
+
+2022-02-05 23:17:03 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609997, USER-ID: 27
+
+2022-03-14 23:54:47 Error: 
+DBG: Inside beforeFilter()
+
+2022-03-14 23:57:45 Error: 
+DBG: Inside beforeFilter()
+
+2022-03-15 13:59:08 Error: 
+DBG: Inside beforeFilter()
+
+2022-03-20 15:50:22 Error: 
+DBG: Inside beforeFilter()
+
+2022-03-20 16:37:26 Error: 
+DBG: Inside beforeFilter()
+
+2022-03-20 16:39:52 Error: 
+DBG: Inside beforeFilter()
+
+2022-03-20 16:42:47 Error: 
+DBG: Inside beforeFilter()
+
+2022-03-20 16:42:47 Error: 
+DBG: Extraction Starts: PROJECT-ID: 1609998, USER-ID: 28
+
+2022-03-20 16:42:47 Error: 
+DBG: .SB FILE FOUND: /var/www/app/webroot/static/projects/TCB94/1609998.sb
+
+2022-03-20 16:42:47 Error: 
+DBG: Executing: /usr/lib/jvm/default-java/jre/bin/java -jar /var/www/app/misc/historyextraction/ScratchAnalyzer.jar  h "/var/www/app/webroot/static/projects/TCB94/1609998.sb"
+
+2022-03-20 16:42:48 Error: 
+DBG: Analyzer returns: 2022-3-20  14:36:55	save	avi14	!undefined!	!undefined!
+
+
+2022-03-20 16:42:48 Error: 
+DBG: SUCCESSFULLY ANALYZED: 1609998 has no based on 
+
+2022-03-20 16:42:48 Error: 
+DBG: Running Full Analyzer 
+
+2022-03-20 16:42:48 Error: 
+DBG: Extraction Ends: PROJECT-ID: 1609998, USER-ID: 28
+
+2022-05-10 21:37:39 Error: 
+DBG: Inside beforeFilter()
+

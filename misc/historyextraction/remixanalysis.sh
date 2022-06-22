@@ -1,0 +1,1 @@
+java -Xms1000M -Xmx1000M -jar remixanalyzer.jar "localhost:8888/ANALYSIS_DB?user=rescratchadminaccou&password=1209348756##" "remix_history_again" "/static/projects"  -b "YYYY-MM-DD HH:MM:SS" -r "localhost:8888/prod-database?user=rescratchadminaccou&password=1209348756##" -l -p  &>  error.log

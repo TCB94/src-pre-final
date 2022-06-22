@@ -1,0 +1,88 @@
+<div class="fullcontent">
+<div style="text-align:right">
+<a href="<?php echo $html->url($rss_link); ?>" title="Subscribe to my feed">
+    <?php echo $html->image('/img/feed-icon.gif',array('border'=>'0'))?><?php ___('Subscribe'); ?>
+</a>
+</div>
+
+<?php if(count($inappropriate_notifications) > 0) { ?>
+<h2><?php ___("Admin message(s)");?></h2>
+
+<?php foreach($inappropriate_notifications as $not):?>
+<?php
+	$not = $not[0]; 
+	$id = $not['id'];
+	$message = $template->create($not, $username);
+    $from_user_name = $not['from_user_name'];
+    if(empty($from_user_name)) {
+        $from_user_name = ($not['is_admin']) ? 'admin' : 'system';
+    }
+?>
+	<div id='notification_<?php echo $id; ?>' class="notification" style='display:block;' align='left'>
+		<?php echo $ajax->link($html->image('delete.png'), '#', 
+			array("url"=>"/notifications/hide/".$id, "update"=>"notification_$id", 
+			"complete"=>"updateNotificationsCounter()"), NULL, false); ?>
+		<?php echo $message; ?>
+    </div> 
+
+<?php endforeach; ?>
+
+
+<?php } ?>
+
+<h2><?php ___('Message(s)'); ?></h2>
+
+<div id="main">
+    <div id="messages">
+	<?php foreach($notifications as $notification):?>
+	<?php
+		$notification = $notification[0]; 
+		$id = $notification['id'];
+		$message = $template->create($notification, $username);
+	?>
+	<?php if($notification['notif_type'] == 'notification'): ?>
+		<div id='notification_<?php echo $id; ?>' class="notification" style='display:block;' align='left'>
+			<?php echo $ajax->link($html->image('delete.png'), '#', 
+				array("url"=>"/notifications/hide/".$id, "update"=>"notification_$id", 
+				"complete"=>"updateNotificationsCounter()"), NULL, false); ?>
+			<?php echo $message; ?>
+	    </div>
+	<?php else: ?>
+		<div id='request_<?php echo $id; ?>' class="notification" align='left'>
+			<?php
+				echo $ajax->link($html->image('delete.png'), '#', 
+				array("url" => '/requests/decline?type=friend&rid='.$id, "update"=>"request_$id",
+				"complete"=>"updateNotificationsCounter()"), NULL, false); 
+			?>
+			<?php echo $message; ?>
+	    </div>
+	<?php endif; ?>
+    <?php endforeach; ?>
+	
+	<?php if($notify_count > 0): ?>
+	<?php
+		$pagination->setPaging($paging);
+		echo $this->renderElement('pagination');
+	?>
+	</div>
+	<?php endif; ?>
+	
+	<br/>
+	
+	<div id="hide_all_notification">
+		<h6>
+		<?php echo $ajax->link("Click here", '#', 
+			array("url"=>"/notifications/hide_all/", "update"=>"hide_all_notification", 
+			"complete"=>"updateNotificationsCounter(true)"), NULL, false); ?>
+		 to delete all of your notifications
+		 </h6>
+	</div>
+	
+    <div id="pnotifyDiv">
+		<?php e($this->renderElement("pnotify")); ?>
+    </div>
+    <div id="gnotifyDiv">
+		<?php e($this->renderElement("gnotify")); ?>
+    </div>
+</div>
+</div>

@@ -1,0 +1,208 @@
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<?php if(isset($isFeatured ) && isset($image_name )):?>
+<?php if($isFeatured ):?>
+<?php echo $html->image('large_ribbon/'.$image_name,array('class'=>'project_ribbon'));?>
+<?php endif; ?>
+<?php endif; ?>
+
+<div id="header" class="clearme">
+    <div id="logo">
+         <h1><a href="<?php echo $html->url('/')?>"></a></h1>
+      <h2><?php ___('imagine'); ?> &bull; <?php ___('program'); ?> &bull; <?php ___('share'); ?></h2>
+    </div>
+<!-- |||||| Begin main menu ||||||| -->
+    <ul id="nav" class="clearme">
+	<li><a href="#main" class="hidden"><?php ___('Skip Navigation'); ?> </a></li>
+
+
+<li style="float:right; margin-right:6px;">
+
+<script type="text/javascript" language="JavaScript"><!--
+function langm(d) {
+if(d.length < 1) { return; }
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+--></script>
+
+
+<div id="langmenu">
+<?php
+$lang = array( 
+			   array("Afrikaans", "/lang/afr", "Language"),
+			   array("العربية", "/lang/ara", "اللغة"),
+			   array("Bulgarian", "/lang/bul", "Language"),
+			   array("Catalan", "/lang/cat", "Language"),
+			   array("Croatian", "/lang/scr", "Language"),
+			   array("Czech", "/lang/cze", "Language"),
+			   array("Danish", "/lang/dan", "Language"),
+               array("Deutsch", "/lang/de-de", "Sprache"),
+               array("English", "/lang/en-us", "Language"),
+               array("Español", "/lang/es-es", "Español"),
+                           array("Esperanto", "/lang/eo", "Esperanto"),
+			   array("Estonian", "/lang/est", "Language"),
+			   array("Faroese", "/lang/fao", "Language"),
+			   array("Finnish", "/lang/fin", "Language"),
+               array("Français", "/lang/fr-fr", "Langue"),
+			   array("Galecian", "/lang/glg", "Language"),
+               array("Ελληνικά", "/lang/gre", "Γλώσσα"),
+			   array("Hebrew", "/lang/heb", "Language"),
+			   array("Hindi", "/lang/hin", "Language"),
+               array("Magyar", "/lang/hun", "Nyelv"),
+			   array("Icelandic", "/lang/ice", "Language"),
+			   array("Indonesian", "/lang/ind", "Language"),
+               array("Italiano", "/lang/ita", "Lingua"),
+               array("日本語", "/lang/jpn", "言語"),
+               array("한국어", "/lang/kor", "언어"),
+			   array("Lithuanian", "/lang/lit", "Language"),
+			   array("Macedonian", "/lang/mk-mk", "Language"),
+			   array("Malaysian", "/lang/may", "Language"),
+			   array("Mongolian", "/lang/mon", "Language"),
+               array("Nederlands", "/lang/dut", "Taal"),
+               array("Norsk", "/lang/nor", "Språk"),
+			   array("Persian", "/lang/per", "Language"),
+               array("Polski", "/lang/pol", "Język"),
+			   array("Portuguese", "/lang/pt", "Language"),
+               array("Português-Br", "/lang/pt-br", "Idioma"),
+			   array("Русский", "/lang/rus", "Язык"),
+			   array("Slovak", "/lang/slo", "Language"),
+			   array("Slovenian", "/lang/slv", "Language"),
+			   array("Swedish", "/lang/swe", "Language"),
+			   array("Thai", "/lang/tha", "Language"),
+			   array("Türkçe", "/lang/tur", "Dil"),
+			   array("Ukrainian", "/lang/ukr", "Language"),
+			   array("Vietnamese", "/lang/vie", "Language"),
+			   array("简体中文", "/lang/zh-cn", "Language"),
+			   array("正體中文", "/lang/zh-tw", "語言")
+             );
+
+$langnum = count($lang)-1;			 
+$langi=0;		
+$langselect = ___('Language', true);
+//for ($z = 0; $z < $langnum; $z++) { 
+//	if ($lang[$z][2]==$langselect){
+//	$stop=$lang[$z][0];
+//	} 
+//}			 
+?>
+
+    <span onClick="javascript:langm('langbg')"><a class="drop"><?php echo $langselect; ?><img src="/img/drop-down.gif" height="11" width="11" align="top"/></a></span>
+
+</div>
+
+</li>
+	
+	 
+      <li <?php if ($active_tab == "home"):?> id="active" <?php endif;?>>
+	  
+	  <a href=<?php echo $html->url('/')?>><?php ___('home'); ?></a>
+	  </li>
+      <li <?php if ($active_tab == "projects"):?> id="active" <?php endif;?>><a href="<?php echo $html->url(array('controller'=>'channel','action'=>'featured'))?>"><?php ___('projects'); ?></a></li>
+      <li <?php if ($active_tab == "galleries"):?> id="active" <?php endif;?>><a href="<?php echo $html->url('/galleries/')?>"><?php ___('galleries'); ?></a></li>
+	 
+      <li <?php if ($this_controller_here === "/support"):?> id="active" <?php endif;?>><a href="/redirect/support"><?php ___('support'); ?></a></li> 
+	 <?php if (!$isBanned): ?>
+		<li <?php if ($this_controller_here === "https://discord.gg/4Eg82qZdjn"):?> id="active" <?php endif;?>><a href="<?php echo $html->url(array('controller'=>'forums'))?>"><?php ___('forums'); ?></a></li>
+	  <?php endif; ?>
+	  <li <?php if ($this_controller_here === "/about"):?> id="active" <?php endif;?>><a href="<?php echo $html->url('/redirect/about')?>"><?php ___('about'); ?></a></li>
+      
+    </ul>
+<!-- ////// End main menu ////// -->
+
+<!-- ////// Continue language menu ////// -->
+            <div id="langbg" style="display:none;">
+            	<img src="/img/langtop.png" height="24" width="330" align="top"/>
+                <div style="width:330px; padding-left:16px; float:left; background: url(/img/lang-1px.png) repeat-y scroll 0pt 50%;">
+
+              
+<?php 
+        
+for ($d = 0; $d < 4; $d++) { // 4 columns loop
+    
+	$g = 0;
+	
+	echo "<ul id='languages'>";
+	
+	if ($g !=$langnum) { 
+		$g = $langi+$langnum/4; // number of languages per column
+	} 
+	else {
+		break;
+	}
+	
+	for (; ($langi < $g) and ($langi < count($lang)); $langi++) { //loop for each column			 
+		if ($lang[$langi][0]!==$stop) {
+			echo "<li><a href='".$lang[$langi][1]."'>".$lang[$langi][0]."</a>";
+		}
+		else { // removes displayed language, default is English
+			$g+=1;
+		}
+	}
+	
+	echo "</ul>";	
+}
+?>
+                </div>
+                <img src="/img/langbottom.png" height="17" width="330" />
+            </div>
+<!-- ////// End language menu ////// -->			
+
+	
+     <div id="userbar"><?php
+     
+     printf(___('%sLogin%s or %sSignup%s for an account', true), '<a href="/login" onclick="showLogin(); return false;">', '</a>', '<a href="/multiaccountwarn">', '</a>'); ?></div>
+	
+    <div id="searchbar">
+<!-- Google CSE Search Box Begins  -->
+<form action="/pages/results" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="010101365770046705949:gg_q9cry0mq" />
+    <input type="hidden" name="cof" value="FORID:11" />
+    <input type="text" name="q" size="20" />
+    <input type="hidden" name="safe" value="active" />
+    <input type="submit" class="search" name="sa" value="<?php ___('search'); ?> "/>
+  </div>
+</form>
+<!-- Google CSE Search Box Ends -->
+</div>
+	
+<div style="float:left;">
+<div id="logincontainer" style="display:none;">
+
+	<form  name="logs" action="<?php echo $html->url(array('controller'=>'users','action'=>'login'))?>" method="POST" accept-charset="UTF-8">
+	<?php ___('username'); ?>:<input id="UserInput" type="text" name="User" value="" size="12">
+	<?php ___('password'); ?>:<input type="password" name="Pass" value="" size="12">
+	<input type="hidden" name="Hmph" value="<?php echo sha1(date("H:i")) ?>">
+	<input type="hidden" name="refer" value="<?php echo str_replace("%2F", "/", urlencode($_SERVER['REQUEST_URI'])); ?>">
+	<input type="submit" class="button" value="<?php ___('log in'); ?>"> &nbsp;&nbsp;<a href="/password_recovery"><?php ___('Did you forget?')?></a>
+	</form>
+   
+	</div>
+	</div>
+	
+<?php
+	if($isAnnouncementOn && $showToLoggedInUser == 0) {
+		echo "<div id='announcement'>";
+		e($announcement);
+		echo "</div>";
+	}
+?>
+
+<?php
+	echo $this->element('country_welcome', compact(array('isCustomizableCountry', 'ipCountry')));
+?>
+<?php
+				
+				if ($session->check('Message.flash')):
+				echo "<div id='flash_error'>";
+						$session->flash();
+				echo "</div>";		
+				endif;
+				
+?>
+</div>

@@ -1,0 +1,9 @@
+<?php
+$pattern = '/[\n\r]/';
+$rep = '<br>';
+$pdesc = preg_replace($pattern, $rep, $gdesc);
+if(isset($linkify)) {
+    $pdesc = $util->linkify($pdesc);
+}
+echo $pdesc;
+?>

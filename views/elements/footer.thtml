@@ -1,0 +1,64 @@
+<div id="footer" class="clearme">
+<?php if($isCustomizableCountry):?>
+	<?php ___('Your location: ')?><span id="countryName"><?php ___(getCountryNameByCode($cookieCountry)) ?></span>
+	<span id="countryChangeDiv" ><a href="<?php echo $html->url('/country/'.$alterCountry); ?>"><?php ___(getCountryNameByCode( $alterCountry)); ?>&nbsp;<?php  ___('instead?')?></a></span> |
+<?php endif;?>
+<a href="https://scratch.mit.edu/scratch_1.4"><?php ___('Download')?></a> | 
+<a href="/donate"><?php ___('Donate')?></a> | 
+<a href="/privacy"><?php ___('Privacy Policy')?></a> | 
+<a href="/terms"><?php ___('Community Guidelines')?></a> | 
+<a href="/copyright"><?php ___('Copyright Policy')?></a> | 
+<a href="<?php echo $html->url('https://discord.gg/4Eg82qZdjn')?>"><?php ___('Contact Us')?> </a>
+<?php // DO NOT REMOVE THE NOTICE BELOW!!! SERIOUSLY, I SET THIS UP, PLEASE GIVE ME CREDIT IF YOU TAKE ANY SCREENSHOTS. ?>
+<p>This copy of ScratchR (now named ReScratchR) was set up by jvvg and then modified by neontflame.</p>
+
+<?php
+/*
+	if ($content_status == "all") {
+		echo "<a href='/karma/setContentStatus/safe/true'>" . ___('Show only reviewed projects (experimental)', true) . "</a>";
+	} else {
+		echo "<a href='/karma/setContentStatus/all/true'>" . ___('Show all projects (experimental)', true) . "</a>";
+	}
+*/
+?>
+
+
+
+<div id="ipaddress"> <? if ($client_ip) { echo $client_ip; } else { echo "-"; }; ?> </div>
+</div>
+</div>
+
+<script src="http://static.getclicky.com/88107.js" type="text/javascript"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/88107-db11.gif" /></p></noscript>
+
+<!-- ClickTale Bottom part -->
+<div id="ClickTaleDiv" style="display: none;"></div>
+<script type="text/javascript">
+if(document.location.protocol!='https:')
+  document.write(unescape("%3Cscript src='http://s.clicktale.net/WRb.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if(typeof ClickTale=='function') ClickTale(22427,0.00036,"www");
+</script>
+<!-- ClickTale end of Bottom part -->
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-ceDf5rCr2q-1c"
+};
+</script>
+<script type="text/javascript" src="//secure.quantserve.com/quant.js"></script>
+<noscript>
+<img src="//secure.quantserve.com/pixel/p-ceDf5rCr2q-1c.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1470754-1");
+pageTracker._trackPageview();
+</script>

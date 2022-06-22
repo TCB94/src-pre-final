@@ -1,0 +1,19 @@
+#header {
+	width: auto; /*needed to keep IE from throwing a horizontal scrollbar in the page */
+}
+#ajax_notification {
+     position: absolute;
+     z-index: 100;
+     overflow: hidden;
+}
+html, body {
+     height:100%;
+ /*    overflow: hidden;*/
+     width:auto;
+}
+
+div#ajax_indicator {
+  position:absolute !important;
+  top: expression( ( 13 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+  right:247px;
+}

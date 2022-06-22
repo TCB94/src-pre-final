@@ -1,0 +1,22 @@
+<div class="fullcontent">
+<h2><?php ___('List of Countries')?></h2>
+<div class="flags">
+
+<?php $countries =array_slice($countries,1); ?> 
+<?php foreach($countries as $country):?>
+
+<a href="<?php echo $html->url('/users/countries/'.$country)?>">
+<?php echo $html->image('/img/flags/'.$country.'.png',array('alt'=>$country,'width'=>'103','height'=>'61'))?>
+<h6><?php echo $country?>&nbsp;
+<?php if(array_key_exists($country,$user_list)):?>
+(<?php echo $user_list[$country]?>)
+<?php else:?>
+(0)
+<?php endif;?>
+</h6></a>
+<?php
+endforeach;
+?>
+</div>
+</div>
+

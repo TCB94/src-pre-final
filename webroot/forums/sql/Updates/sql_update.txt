@@ -1,0 +1,5 @@
+ALTER TABLE `punbb_users` ADD `created` DATE NOT NULL ;
+
+UPDATE `punbb_config` SET `conf_value` = '150' WHERE CONVERT( `punbb_config`.`conf_name` USING utf8 ) = 'p_sig_length' LIMIT 1 ;
+
+ALTER TABLE `punbb_users` DROP `created`;

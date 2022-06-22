@@ -1,0 +1,37 @@
+<div class="fullcontent">
+
+<h2><?php printf(___('%s Message(s)',true),count($inappropriate_notifications)); ?></h2>
+
+<div id="main">
+    <div id="messages"><?php //print_r($inappropriate_notifications)?>
+	<?php foreach($inappropriate_notifications as $notification):?>
+	<?php
+		$notification = $notification[0]; 
+		$id = $notification['id'];
+		$message = $template->create($notification, $username);
+        $from_user_name = $notification['from_user_name'];
+        if(empty($from_user_name)) {
+            $from_user_name = ($notification['is_admin']) ? 'admin' : 'system';
+        }
+	?>
+	<div id='notification_<?php echo $id; ?>' class="notification" style='display:block;' align='left'>
+			<?php echo $message; ?>
+			<div style="text-align:right">
+				<small>By <?php echo $from_user_name; ?>
+				&nbsp;
+				<?php
+				echo $notification['created'];
+				?></small>
+			</div>
+	 </div>  
+	
+    <?php endforeach; ?>
+	
+	
+	
+</div>
+<?php
+		$pagination->setPaging($paging);
+		echo $this->renderElement('pagination');
+	?>
+</div>

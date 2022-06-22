@@ -1,0 +1,1 @@
+ALTER TABLE `punbb_posts` ADD `score` INT(10) NOT NULL DEFAULT 0;

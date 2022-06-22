@@ -1,0 +1,66 @@
+<div class="fullcontent">
+<h3>
+
+<?php 
+___("The Scratch Team decided to block the account or the IP address you are using.");
+?><h3>
+
+<p>
+<?php
+	if($isBanned){
+		e("Reasons: $ban_reason");
+	}
+?>
+</p>
+
+<h3>
+<?php
+___('Contact Us if you have any questions');
+?></h3>
+
+<?php if (isset($succes)){ ?>
+	 <p>
+	  <?php echo $html->image('/img/contact_thanks.png')?>
+	 </p> 
+<?php }else{?>
+	 <form method="post"  action="<?php echo $html->url('/contact/us_banned/')?>">
+
+<?php if (isset($error)){?> 
+	  <p><h2><?php echo($error) ?></h2></p>
+	  <p><?php ___('Not working for you? help@scratch.mit.edu'); ?></p>
+<?}?>
+
+<div id="main">
+<p>
+	<?php ___('Name'); ?>:	 <?php echo $form->input('Page.name' ,array('label'=>false ,'div'=> false ,'size'=>'25'));?>
+</p>
+<?php 
+if (!$isLogged) {
+echo '<p>';	___('Username')
+?>
+	:  <?php echo $form->input('Page.username' ,array('label'=>false ,'div'=> false ,'size'=>'25'));?> 
+<?php
+echo '</p>';	
+}
+?>
+<p>
+	<?php ___('Email'); ?>:	 <?php echo $form->input('Page.email' ,array('label'=>false ,'div'=> false ,'size'=>'25'));?>
+</p>
+
+<p>
+	<?php ___('Subject'); ?>:	  <?php echo $form->input('Page.subject' ,array('label'=>false ,'div'=> false ,'size'=>'25'));?>
+</p>
+
+<p>
+   <?php ___('Message'); ?>:<br />
+   <?php echo $form->input('Page.message' ,array('label'=>false ,'div'=> false ,'rows'=>'10','cols'=>'40','type'=>'textarea'));?>
+</p>
+<p >
+<input type="submit" value="<?php ___('Send email')?>" />
+   
+</p>
+</form>
+</div>
+<?php }?>
+</div>
+<!--- End Content --->

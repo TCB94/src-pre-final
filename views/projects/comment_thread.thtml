@@ -1,0 +1,53 @@
+<?php
+    $lock = ($isLocked) ? 1 : 0;
+    $user_locked = ($user_status == "normal") ? 0 : 1;
+?>
+
+  <!-- |||||| Begin content area ||||||| -->
+  <div id="main">
+
+    <!-- ::: Begin project ::: -->
+    <div class="container">
+
+        <?php if($isAdmin &&($proj_visibility == "delbyadmin" || $proj_visibility == "delbyusr")):?>
+            <div style="color:#FF0000">Project has been deleted</div>
+        <?php endif?>
+
+        <h2 id="project_title"><?php $project_title =htmlspecialchars($project['Project']['name']); e($project_title);?> </h2>
+        <div id="projectload"></div>
+        <br/>
+        <div id="creation">
+            <div id="whowhen">
+                <?php echo $html->image(getBuddyIconBySize($owner_id,'mini', $content_status),array('alt'=>'user_icon','width'=>'28','height'=>'28'))?>
+                <a href="<?php echo $html->url('/users/')?><?php echo $urlname?>"><?php echo $urlname?></a>
+                <?php ___('shared it ');echo $date;___(' ago')?><br />
+            </div>
+
+        </div>
+    </div>
+    <!-- ::: End project ::: -->
+
+    <br/>
+    <!-- ::: Begin comments ::: -->
+	<?php if($content_status == "all"): ?>
+    <div id="comments" class="container">
+      <h3><?php ___('Comments'); ?></h3>
+	    <div style="height:9px;">&nbsp</div>
+        <div style="padding:5px; background:#F2F2F2; margin-bottom:10px">
+        you are viewing a single comment's thread <br/>
+        <a href="<?php echo $html->url('/projects/'.$urlname.'/'.$pid)?>">click here</a> to see all comments <br/>
+        </div>
+        <div id="ajax_pagination_secondary">
+            <?php e($this->renderElement('commentlist')); ?>
+        </div>
+	</div>
+	<?php endif; ?>
+	<!-- ::: End comments ::: -->
+  </div>
+  <!-- ////// End main content ////// -->
+
+
+  <!-- |||||| Begin sidebar ||||||| -->
+  <div id="sidebar">
+  </div>
+  <!-- ////// End main sidebar ////// -->

@@ -1,0 +1,153 @@
+<?php
+    $ignored_commenter_text = 'Comment not displayed. Posted by a muted account.';
+    $ignored_commment_text = 'You have flagged this comment';
+    $reply_link = '(<a onclick="showReplyBox(%1$s, 0); addGalleryCharCounter(%1$s); return false;" id="reply_hide_link_%1$s" href="#">reply</a>)';
+    $more_reply_link = '<span id="view_hide_link_frame_%s" class="visible_element">(<strong>%s</strong>)</span>';
+    $admin_flag_link = '(<a href="#" onclick="$(\'%s\').toggle(); return false;">%s</a>)';
+    $comment_level = isset($comment_level) ? $comment_level : 0;
+    $is_comment_reply_enabled = ($isLogged && $comment_level <= 1);
+?>
+
+<?php if($isCommentError): ?>
+<div class='comment_error'>
+    <?= $commentErrors[0]; ?>
+</div>
+<?php endif; ?>
+
+<?php foreach($comments as $comment): ?>
+<?php
+$comment_id = $comment['Gcomment']['id'];
+
+$commenter_icon = getBuddyIconBySize($comment['User']['id'], 'mini', $content_status,
+                    $comment['User']['timestamp']);
+$is_comment_owner = ($comment['User']['id'] == $loggedInUID);
+
+$is_commenter_ignored = (in_array($comment['User']['id'], $ignored_commenters)
+                        && !$is_comment_owner);
+$is_deleted_commenter_ignored = (in_array($comment['User']['id'], $deleted_commenters));
+$is_comment_ignored = in_array($comment['Gcomment']['id'], $ignored_comments);
+
+$is_comment_ok = (!$is_commenter_ignored && !$is_comment_ignored && !$is_deleted_commenter_ignored);
+$markcomment_url = '/galleries/markcomment/' . $theme_id . '/' . $comment_id . '/0';
+$can_delete_comment = true;
+if(($isThemeOwner ||isset($users_permission['delete_gallery_comments'])) && !$isAdmin && $comment['User']['role'] == 'admin'){
+$can_delete_comment = false;
+}
+?>
+
+<?php if ($is_comment_ok):?>
+<div class="comment" id="<?= $comment_id ?>">
+
+    <div <?php if($single_thread): ?>style="background:#ffffcc"<?php endif; ?>>
+    <h5>
+        <?php echo $html->image($commenter_icon,
+                array('alt' => $comment['User']['username'], 'width'=>'28', 'height'=>'28')); ?>
+        
+		<?php echo $util->username($comment['User']['username'], $comment['User']['role'])?>
+		
+        <?php if (empty($date) || (isset($date) && $date != "Now")):
+            printf(___('%s ago', true), friendlyDate($comment['Gcomment']['timestamp']));
+        endif; ?>
+    </h5>
+
+    <p>
+    <?php if ($is_comment_ok): ?>
+        <?= $util->linkify($comment['Gcomment']['content']); ?>
+    <?php elseif ($is_comment_ignored): ?>
+        <?= $ignored_commment_text; ?>
+    <?php else: ?>
+        <?= $ignored_commenter_text; ?>
+    <?php endif; ?>
+    </p>
+
+    <span class="flag_comment">
+    <?php if ($is_comment_ok):
+        $comment_links = array();
+        if($is_comment_reply_enabled) {
+            $comment_links[] = sprintf($reply_link, $comment_id);
+        }
+        if ($comment['Gcomment']['replies'] > NUM_COMMENT_REPLY) {
+            $comment_links[] = sprintf($more_reply_link, $comment_id,
+                    $ajax->link(___('view all replies', true), '#',
+                        array(  'url'       => '/galleries/display_replies/' . $comment_id . '/0',
+                                'update'    => 'reply_list_'.$comment_id,
+                                'id'        => 'view_hide_link_'.$comment_id,
+                                'complete'  => "showReplyList($comment_id);"),
+                                null, false)
+                        );
+        }						
+        if($isLogged && !$is_comment_owner) {
+            if($isAdmin) {
+                $comment_links[] = sprintf($admin_flag_link,
+                            'delete_all_'.$comment_id,  ___('flag as inappropriate', true));
+            }
+            else {
+                $comment_links[] = '('. $ajax->link(___('flag as inappropriate', true), '#',
+                        array('url' => $markcomment_url,
+                            'update'    =>  "$comment_id",
+                            'condition' =>"hideComment($comment_id)"),
+                            'Are you sure?', false) .')';
+            }
+        }
+
+        if ($isLogged && $can_delete_comment &&($isAdmin || $isThemeOwner
+            || isset($users_permission['delete_gallery_comments']))) {
+            $comment_links[] = $ajax->link('(x)', '#',
+            array('url' => '/galleries/delete_comment/'.$theme_id.'/'.$comment_id,
+                            'update' => "$comment_id",
+                            'condition' => 'checkLogin()'),
+                            'Are you sure?', false);
+        }
+        
+        echo implode(' | ', $comment_links);
+
+    endif; ?>
+    </span>
+    <?php if($isAdmin): ?>
+        <div id="delete_all_<?= $comment_id ?>" style='display:none;'>
+        <p><?php ___("Do you also want to delete all the messages that are exactly the same?"); ?></p>
+        <?=
+            $ajax->link('<span class="button2">Yes</span>', '#',
+                        array('url' => $markcomment_url.'/1',
+                            'update'    =>  "$comment_id",
+                            'condition' =>"hideComment($comment_id)"),
+                            'Are you sure?', false);
+        ?>
+        &nbsp; &nbsp;
+        <?=
+            $ajax->link('<span class="button2">No</span>', '#',
+                        array('url' => $markcomment_url.'/1',
+                            'update'    =>  "$comment_id",
+                            'condition' =>"hideComment($comment_id)"),
+                            'Are you sure?', false);
+        ?>
+        </div>
+    <?php endif; ?>
+
+    <?php if($is_comment_reply_enabled): ?>
+    <div class="comment_reply_main" id="reply_to_<?= $comment_id; ?>">
+        <?= $this->renderElement('gallery/comment_reply_form', array('comment_id' => $comment_id, 'comment_level' => $comment_level)); ?>
+    </div>
+    <?php endif; ?>
+    </div>
+    <div class="comment_reply_main_visible" id="reply_list_<?= $comment_id; ?>">
+        <?php if(!empty($comment['Gcomment']['replylist'])): ?>
+            <?= $this->renderElement('gallery/reply_list',
+                array('comments' => $comment['Gcomment']['replylist'],
+                    'ignored_commenters' => $ignored_commenters,
+                    'ignored_comments' => $ignored_comments,
+                        'comment_level' => ($comment_level + 1))); ?>
+        <?php endif;  ?>
+     </div>
+</div>
+<?php endif;?>
+<?php endforeach; ?>
+
+<?php if(!$single_thread): ?>
+<div class="gallery_pagination_container">
+	<?php
+		$pagination->setPaging($paging_secondary);
+		echo $this->renderElement('pagination_secondary');
+	?>
+</div>
+<?php endif; ?>

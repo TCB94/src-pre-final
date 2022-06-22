@@ -1,0 +1,24 @@
+
+<rss version="2.0">
+  <channel> 
+    <title><?php echo $username?>'s Notifications</title>
+    <link><?php echo $rss_link; ?></link> 
+    <description><?php echo $username?>'s Last 10 Notifications</description>
+    <language>en-us</language> 
+    <pubDate><?php echo date("D, j M Y H:i:s", gmmktime()) . ' GMT';?></pubDate> 
+    <docs></docs> 
+    <generator>ScratchR</generator>
+   <?php 
+   		foreach ($notifications as $notification): 
+   		$notification = $notification[0]; 
+		$id = $notification['id'];
+		$message = $template->create($notification, $username);
+   ?>
+    <item> 
+      <title><?php echo htmlentities(strip_tags($message)); ?></title>
+      <description><?php echo htmlentities($message); ?></description>
+      <link><?php echo TOPLEVEL_URL.'/notifications'?></link>
+    </item> 
+    <?php endforeach; ?> 
+  </channel> 
+</rss> 

@@ -1,0 +1,67 @@
+
+<div class="fullcontent">
+	<h2>Scratchr Administration Home</h2>
+    <h5>Select from the following tools</h5>
+	<?php if($isAdmin || isset($users_permission['block_IP'])):?>
+	<div class="gallerythumb clearme"> 
+    <a href="/administration/ban_ip"></a>
+	<h3><a href="<?php echo $html->url('/administration/ban_ip')?>"> Ban IP </a></h3>			
+	</div>
+	<?php endif;?>
+	<?php if($isAdmin || isset($users_permission['block_account'])):?>
+	<div class="gallerythumb clearme"> 
+    <a href="/administration/ban_user"></a>
+	<h3><a href="<?php echo $html->url('/administration/ban_user')?>"> Ban User </a></h3>			
+	</div>
+	<?php endif;?>
+	<?php if(1):?>
+	<div class="gallerythumb clearme"> 
+    <a href="/administration/rss_feeds"></a>
+	<h3><a href="<?php echo $html->url('/administration/rss_feeds')?>"> RSS Feeds </a></h3>			
+	</div>
+	
+	<div class="gallerythumb clearme"> 
+    <a href="/administration/set_announcements"></a>
+	<h3><a href="<?php echo $html->url('/administration/set_announcements')?>"> Announcement Tool </a></h3>			
+	</div>
+	
+	<div class="gallerythumb clearme"> 
+    <a href="/administration/search"></a>
+	<h3><a href="<?php echo $html->url('/administration/search')?>"> Search </a></h3>			
+	</div>
+	
+	<div class="gallerythumb clearme"> 
+    <a href="/administration/search_ip"></a>
+	<h3><a href="<?php echo $html->url('/administration/search_ip')?>"> Search IP </a></h3>			
+	</div>
+	
+	<div class="gallerythumb clearme"> 
+    <a href="/administration/karma"></a>
+	<h3><a href="<?php echo $html->url('/administration/karma')?>"> Karma Settings </a></h3>			
+	</div>
+	
+	<div class="gallerythumb clearme"> 
+    <a href="/administration/predefined_tags"></a>
+	<h3><a href="<?php echo $html->url('/administration/predefined_tags')?>"> Admin Tags </a></h3>			
+	</div>
+	
+	<div class="gallerythumb clearme"> 
+    <a href="/administration/notifications"></a>
+	<h3><a href="<?php echo $html->url('/administration/notifications')?>"> Admin Notifications </a></h3>			
+	</div>
+
+    <div class="gallerythumb clearme">
+    <a href="/administration/send_bulk_notifications"></a>
+	<h3><a href="<?php echo $html->url('/administration/send_bulk_notifications')?>"> Send Bulk Notifications </a></h3>
+	</div>
+
+    <div class="gallerythumb clearme">
+    <a href="/administration/ban_user_frontpage"></a>
+	<h3><a href="<?php echo $html->url('/administration/ban_user_frontpage')?>"> Frontpage User Ban  </a></h3>
+	</div>
+	
+	<div class="gallerythumb clearme">
+    <h3><a href="<?php echo $html->url('/home/refresh')?>"> Refresh Home Page Cache  </a></h3>
+	</div>
+	<?php endif;?>
+</div>

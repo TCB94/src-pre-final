@@ -1,0 +1,11 @@
+1. Rename config.sample.php to config.php
+2. Use sql/forums.sql to set up the database
+3. Now edit config.php and fill in your database information there. Also set the name of your forums directory in $forums_dirname vaiable.
+4. In include/template/main.tpl find the line _uacct = "YOUR_GOOGLE_ANALYTICS_ID_GOES_HERE";
+   put in your google analytics id there.
+5. Make the cache directory writable
+
+6. Change configurations in database table punbb_config if required.
+   You will probbably need to chnage o_base_url's value there.
+   Run the following SQL to change the value of o_base_url (change YOURHOST/YOURFOURM accordingly)
+   UPDATE punbb_config SET conf_value = "http://YOURHOST/YOURFORUM" WHERE conf_name = "o_base_url"

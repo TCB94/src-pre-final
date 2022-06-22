@@ -1,0 +1,10 @@
+AuthUserFile /var/www/app/.htpasswd
+AuthType Basic
+AuthName "ReScratch"
+
+<IfModule mod_rewrite.c>
+   Require valid-user
+    RewriteEngine on
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+ </IfModule>

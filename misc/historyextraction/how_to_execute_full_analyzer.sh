@@ -1,0 +1,1 @@
+java -Xms1000M -Xmx1000M -jar analyzer.jar "localhost:8888/ANALYSIS_DB?user=rescratchadminaccou&password=1209348756##" "/static/projects"  -b "YYYY-MM-DD HH:MM:SS" -r "localhost:8888/prod-database?user=rescratchadminaccou&password=1209348756##" -l -p  &>  error.log

@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<?php
+  if ($session->check('Config.language')) {
+      $lang = $session->read('Config.language');
+      if ($lang == 'ara' or $lang == 'heb' or $lang == 'per')
+          echo '<html dir="rtl">';
+      else
+          echo '<html dir="ltr">';
+  }
+  else {
+    echo '<html dir="ltr">';
+  }
+?>
+<head>
+<?php
+	echo $this->renderElement('superheader');
+?>
+
+<title>Scratch 	| <?php ___('Project'); ?> | <?php echo $project['Project']['name'] ?></title>
+
+<?php
+echo $html->css('main');
+echo $javascript->link('projects.js');
+#echo $javascript->link('prototype.js');
+echo $javascript->link('scriptaculous.js');
+#echo $javascript->link('plugins.js');
+#echo $javascript->link('scratchr.js');
+#echo $javascript->link('projectbox.js');
+#echo $javascript->link('project_comment.js');
+
+#echo $javascript->link('charcount.js');
+#echo $javascript->link('jquery.js');
+#echo $javascript->link('ajax.js');
+
+
+?>
+
+<!-- |||||| IE- only stylesheet in conditional comment ||||||| -->
+<!--[if IE]>
+<link href="/css/global_ie.css" rel="stylesheet" type="text/css">
+
+<![endif]-->
+<!--[if IE 6]>
+<link href="/css/ie6.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/js/ie_hacks.js"></script>
+<![endif]-->
+<?php
+
+if ($isLoggedIn) {
+	
+    $areyousure = ___('Are you sure this project is disrespectful or inappropriate as defined by the Scratch Community Guidelines?', true); 
+ $pleaseexplain = ___("Please explain more about why you think this project is inappropriate.", true);
+     $have2desc = ___("You have to describe why you\'re reporting a project before you can report it!", true);
+    e($javascript->codeBlock("
+	
+	var loveit_loading = false;
+	function checkLoading() {
+		if(!loveit_loading && checkLogin())	{
+			loveit_loading = true;
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
+    function checkLogin(elid) {
+		if(elid) {
+			if (document.getElementById(elid).value)
+				return true;
+			else
+				return false;
+		} else {
+				return true;
+		}
+    }
+	
+	function changeLoveItImage(loveit) {
+		var imgLoveIt = document.getElementById('img_loveit');
+		if (loveit)
+			imgLoveIt.src = '/img/star.gif';
+		else 
+			imgLoveIt.src = '/img/star_bg.gif';
+	}
+	
+	function changeLoveItImage1(loveit) {
+		var imgLoveIt = document.getElementById('lovelink');
+		if (loveit){
+			imgLoveIt.className = 'loveyes';
+			//imgLoveIt.innerHTML = 'I love it!';
+		}
+		else 
+			imgLoveIt.className = 'love';
+	}
+	
+	function changeLoversCount(loveit) {
+		loveit_loading = false;
+		var loversCountHidden = document.getElementById('lovers-count-hidden');
+		var loversCount = document.getElementById('lovers-count');
+		var loversMsg = document.getElementById('lovers-msg');
+		if (loveit)
+			loversCount.firstChild.nodeValue = parseInt(loversCount.firstChild.nodeValue) + 1;
+		else
+			loversCount.firstChild.nodeValue = parseInt(loversCount.firstChild.nodeValue) - 1;
+	}
+	
+
+	function confirmFlagging(text){
+		if (checkLogin()) {
+			if (!text.blank())
+			{
+				if (text.length > 7) {
+					if(confirm(\"$areyousure\")){
+						return true;
+					}
+				}
+				else {
+					alert(\"$pleaseexplain\");
+					return false;
+				}
+			}
+			else
+			{
+				alert(\"$have2desc\");
+				return false;
+			}
+		}
+		return false;
+	}
+			
+    "));
+
+} else {
+
+    $want2report = ___('Do you want to report this project as not appropriate for the Scratch community?', true);
+    $pleaselogin = ___('You need an account to do this. Please login. It\'s totally worth it!', true);
+    e($javascript->codeBlock("
+
+
+	var loveit_loading = false;
+	function checkLoading() {
+		if(!loveit_loading && checkLogin())	{
+			loveit_loading = true;
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
+	function confirmFlagging(){
+		if (checkLogin()) {
+			if(confirm(\"$want2report\")) {
+				return true;
+			}
+		}
+		return false;
+	}
+			
+    function checkLogin() {
+        alert(\"$pleaselogin\");
+        return false;
+    }
+	
+    "));
+}
+
+if (isset($head)) echo $head->print_registered();
+?>
+
+</head>
+<!--init scratch player or flash player-->
+<?php if(trim($player_type) == 'java' || empty($player_type)):?>
+<body onload="initProjectbox(); initScratchPlayer();">
+<?php elseif(trim($player_type) == 'flash'):?>
+<body onload="initProjectbox();installPlayer('/static/misc/PlayerOnly.swf', 'PlayerOnly');">
+<?php endif;?>
+	<div id="overlay">
+	</div>
+	<div id="errorbox">
+		<?php
+            e($ajax->div("error_notification"));
+
+            e($ajax->divEnd("error_notification"));
+        ?>
+	</div>
+<!-- |||||| Begin main container ||||||| -->
+<div id="container">
+
+
+<!-- |||||| Begin header ||||||| -->
+<?php
+if ($isLoggedIn)
+    echo $this->renderElement('header_loggedin');
+else {
+    echo $this->renderElement('header_default');
+}
+
+?>
+<!-- ////// End header ////// -->
+
+
+<?php echo $content_for_layout?>
+
+
+<?php echo $this->renderElement('footer'); ?>
+<?php
+	echo $this->renderElement('ajax_indicator');
+?>
+</body>
+</html>

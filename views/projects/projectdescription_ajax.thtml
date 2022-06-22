@@ -1,0 +1,12 @@
+<?php
+if($modified){
+$pattern = '/[\n\r]{4,}/';
+$rep = '<br><br><br>';
+$pdesc = preg_replace($pattern, $rep, $pdesc);
+}
+$pdesc = preg_replace('[\n]', '<br>', $pdesc);
+if(isset($linkify)) {
+    $pdesc = $util->linkify($pdesc);
+}
+echo $pdesc;
+?>

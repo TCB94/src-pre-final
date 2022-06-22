@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="/static/experimental/css/viewproject.css" />
+<script type="text/javascript" src="/static/experimental/js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="/static/experimental/js/viewproject.js"></script>
+<script type="text/javascript" src="/static/experimental/js/experimental.js"></script>
+<script>
+function getUrlVars()
+{
+	var args = window.location.href.slice(window.location.href.indexOf('?') + 1);
+	var vars = [], hash;
+	var hashes = args.split('&');
+	for(var i = 0; i < hashes.length; i++){
+		hash = hashes[i].split('=');
+		vars.push(hash[0]);
+		vars[hash[0]] = hash[1];
+	}
+  return vars;
+}
+
+var urlvars = getUrlVars();
+var sb = urlvars['sb'];
+var id =  urlvars['id'];
+
+</script>
+
+</head>
+
+<body>
+<div class="header">
+ <div class="logo">
+ 	<img src="/static/experimental/img/justscratch.png">Experimental Viewer
+ </div>
+ <div class="help">
+  <a href="#" onClick="showHelp()">Questions about this viewer?</a>
+</div>
+</div>
+
+<div class="frame" id="div">
+	<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+		codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,40,0"
+		id=Scratch WIDTH="100%" HEIGHT="100%">
+	<PARAM NAME=movie VALUE="/static/experimental/Scratch.swf?owner=<?php echo $creatorname; ?>&projectname=<?php echo $projectid; ?>&userid=<?php echo $userid; ?>">
+	<PARAM NAME="bgcolor" VALUE="#000000">
+	<PARAM NAME=quality VALUE=medium>
+	<PARAM NAME="allowScriptAccess" VALUE="always">
+	<param NAME="wmode" VALUE="opaque">
+	<EMBED src="/static/experimental/Scratch.swf?owner=<?php echo $creatorname; ?>&projectname=<?php echo $projectid; ?>&userid=<?php echo $userid; ?>"
+		bgcolor="#000000"
+		WIDTH="100%" HEIGHT="100%"
+		allowScriptAccess="always"
+		wmode="opaque"
+		TYPE="application/x-shockwave-flash">
+	</EMBED>
+	</OBJECT>
+	<div class="popup"></div>
+</div>
+</body>
+</html>
+

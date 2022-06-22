@@ -1,0 +1,62 @@
+<div class="fullcontent">
+<p>
+<?php
+// Create String for Showing Users List
+$users_from_same_ip = "<table><tr><td style='width:150px;font-weight:bold'>" . ___('User', true) . "</td><td style='width:150px;font-weight:bold'>" . ___('Block date', true) . "</td><td style='font-weight:bold'>" . ___('Reason', true) . "</td></tr>";
+foreach($user_records as $user) {
+	$urlname=$user['User']['urlname'];
+	$blockedDate = $user['BlockedUser']['timestamp'];
+	$reason = $user['BlockedUser']['reason'];
+  $users_from_same_ip .= "<tr><td>" . $html->link($urlname, '/users/'.$urlname) . "</td><td>$blockedDate</td><td>$reason</td></tr>";
+}
+$users_from_same_ip .= "</table>";
+
+/*if(isset($activity_from_same_ip_signup_interval)) {
+?>
+<div id="signup_notice" >
+  <?php 
+  $user_ref = "/users/".$urlname;
+  ?>
+  <h5><p><?php ___('The following accounts have already been created from this IP')?> (<?php echo $ip_address?>):</h5> 
+  <p><?php echo $users_from_same_ip; ?></p>
+  <p><?php ___('In order to prevent misuse, please wait a few more minutes before creating a new account from')?> <?php echo $ip_address?>.</p>
+  <p><a href="<?php echo $html->url('/users/whitelistip')?>">Send request for create multiple account from same Ip</a></p>
+</div>
+<?php
+}
+else {*/
+?>
+
+<p><span style='font-size: 35px'><?php ___('Uh oh'); ?></span>, <?php ___('it looks like one or more Scratch accounts using your network were recently blocked. Accounts are blocked when they\'re used in ways that break the'); ?> <a href='/redirect/terms'><?php ___('Scratch Community Guidelines'); ?></a>. <?php ___('In short, the guidelines say'); ?>:
+<ul><li><?php ___('Be respectful of other Scratchers'); ?></li>
+<li><?php ___('Be constructive when commenting'); ?></li>
+<li><?php ___('Help keep the site friendly'); ?></li></ul>
+<?php ___('Here are the accounts that have recently been blocked:'); ?>
+</p>
+
+<p><?php echo $users_from_same_ip; ?></p>
+
+<p><span style='font-size: 35px'><?php ___('If you are the owner');?></span> <?php ___('of one or more of these account(s), login to the account and contact us using the form on the block page to request that we unblock it. As long as you promise to follow the '); ?> <a href='/redirect/terms'><?php ___('Community Guidelines'); ?></a>, <?php ___('and we feel that we can trust your promise, we will unblock your account. Don\'t create more accounts, or they may be removed without warning.'); ?></p>
+
+<p><span style='font-size: 35px'><?php ___('If you are a school'); ?></span> <?php ___('or share your network with others, don\'t panic!  If you recognize any of the accounts that were blocked, it would be a good idea to talk with their owners and make sure they understand the'); ?> <a href='/redirect/terms'><?php ___('Scratch Community Guidelines'); ?></a>.
+ <?php ___("Networks that are used to make disrespectful comments or projects may be blocked from accessing the Scratch website or signing up for new accounts. If that happens, there is a form that can be used to appeal the block on the block page.");?>
+</p> 
+<p><?php ___('What do you want to do?')?></p>
+<a href="<?php echo $html->url('/signup')?>" ><span class='button2'><?php ___('Continue and create a new account')?></span></a>
+<a href="<?php echo $html->url('/login')?>"><span class='button2'><?php ___('Login to an existing account')?></span></a>
+
+<!-- <a href="<?php echo $html->url('/users/whitelistip')?>">Send request for create multiple account from same Ip</a> //-->
+<?php
+//}
+?>
+</div>
+<style>
+#signup_notice{
+margin-bottom:10px;
+color:#FF0000;
+}
+#signup_notice p{
+padding:0;!important
+}
+
+</style>
